@@ -48,5 +48,6 @@ pub enum CharacterConfig {
     YumemizukiMizuki { talent2_rate: f64 },
     Iansan { talent1_rate: f64 },
     Varesa { talent1_rate: f64, talent2_stack: f64, passion: bool },
+    Escoffier { talent1_rate: f64 },
     NoConfig,
 }
